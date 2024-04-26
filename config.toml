@@ -1,0 +1,18 @@
+baseURL = "https://insights.workdojos.com"
+languageCode = "en-us"
+title = "Dojo Insights"
+theme = "hugo-theme-shell"
+
+[Params]
+    [Params.Terminal]
+    schema = "monokai"
+
+    [Params.Tree]
+    use = true
+    files = [
+        ["C/C++", "https://www.example.com/"],
+        ["Python", "https://www.example.com/"],
+        ["Go", "/works/go.md"],
+        ["Hugo", "/works/hugo.md"]
+        ["Account Executives", "/accountexecutive/advice.md"]
+    ]
